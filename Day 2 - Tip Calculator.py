@@ -8,5 +8,5 @@ tip_percentage = int(input("What percentage do you want to use to split the tip?
 total_tip = total_bill / Number_of_diners
 # print(total_tip)
 individual_tip = round(total_tip * (tip_percentage / 100 + 1), 2)
-print(individual_tip)
-print(f"Each person will be paying ${individual_tip}")
+tip_per_person = "{:.2f}".format(individual_tip)
+print(f"Each person will be paying ${tip_per_person}")
