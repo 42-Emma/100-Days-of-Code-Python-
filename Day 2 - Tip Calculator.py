@@ -1,7 +1,7 @@
 print("Welcome to the Tip Calculator.")
 total_bill = float(input("How much is the bill for the meal?\n$"))
 # print(total_bill)
-Number_of_diners = int(input("How many people are splitting the tip?"))
+Number_of_diners = int(input("How many people are splitting the bill?"))
 # print(Number_of_diners)
 tip_percentage = int(input("What percentage do you want to use to split the tip? 10, 12, or 15\n"))
 # print(tip_percentage)
